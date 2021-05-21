@@ -1,0 +1,5 @@
+{
+    "imports": {
+        "algo/": "https://raw.githubusercontent.com/algorand/js-algorand-sdk/v1.9.1/src/"
+    }
+}
