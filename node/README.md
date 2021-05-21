@@ -1,6 +1,8 @@
-# JS algosdk/purestake test
+# Node algosdk/purestake
 
-Simple health-check using `algosdk` and purestake.io testnet.
+Simple health-check using `algosdk` and purestake.io testnet using `node`
+
+Assumes `node` and `npm` are already installed.
 
 ## Setup
 
@@ -11,7 +13,13 @@ export PURESTAKE_KEY=KNI...snip...z3D
 export PURESTAKE_TESTNET_ALGOD=https://testnet-algorand.api.purestake.io/ps2
 ```
 
-Run:
+Install packages:
+
+```bash
+npm install
+```
+
+## Run
 
 ```bash
 node index.js
